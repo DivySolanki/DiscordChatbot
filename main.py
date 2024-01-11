@@ -1,5 +1,3 @@
-# app id = 1193920102555455498
-# public key = 65b49fbc00475f89eed93295eba61799294f95a6a4fff88601c0a81b2b28c5e3
 import discord
 import os
 import dotenv
@@ -7,7 +5,8 @@ from openai import OpenAI
 
 dotenv.load_dotenv()
 
-with open('chat.txt', 'r') as f:
+file = input("Enter the chat name for loading it: ")
+with open(file, 'r') as f:
     chat = f.read()
 chat = ""
 

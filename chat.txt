@@ -1,0 +1,6 @@
+Write text as dialog in the form as specified below for a certain type of response from gpt:
+username: -----------
+gpt_name: -----------
+In this example, "username" is the name or identifier given to the user making the request and "gpt_name" is the name or identifier given to the GPT model. The dialogue begins with an indication by the username that they are asking a question and then follows on with the actual question posed by the username. The response from the GPT model comes next, following directly after the question without any additional prompts or tags.
+
+Note: Remove the instructions and provide only dialogues!!
